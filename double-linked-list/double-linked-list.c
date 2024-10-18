@@ -13,12 +13,12 @@ struct DoubleLinkedList {
     int size;
 };
 
+void print(struct DoubleLinkedList* list);
 void addFirst(struct DoubleLinkedList* list, int value);
 void addLast(struct DoubleLinkedList* list, int value);
 int removeFirst(struct DoubleLinkedList* list);
 int removeLast(struct DoubleLinkedList* list);
 struct DoubleLinkedList* createDoubleLinkedList();
-void print(struct DoubleLinkedList* list);
 
 int main(int argc, char* argv[]){
     printf("Programm running with Arguments: %d \n", argc); 
