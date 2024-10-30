@@ -99,4 +99,3 @@ int popTail(struct Dequeue* dequeue) {
     dequeue->size--;
     return value;
 }
-
